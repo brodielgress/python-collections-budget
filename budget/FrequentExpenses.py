@@ -3,10 +3,10 @@ from . import Expense
 import collections
 import matplotlib.pyplot as plt
 
-expenses.read_expenses(data/spending_data.csv) = Expense.Expenses() 
+expenses = Expense.Expenses() 
+expenses.read_expenses(data/spending_data.csv)
 
 spending_categories = []
-expenses = []
 
 for expense in expenses.list:
     spending_categories.append(expense.category)
