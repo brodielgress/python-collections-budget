@@ -172,7 +172,7 @@ def test_task8_module4():
         if 'a:b:zip:divided_for_loop:divided_set_comp' in x:
             for_loop_found = True
 
-    message = 'Did you create an `for` loop that uses `a,b` as iterator variables to iterate `zip(divided_for_loop, divided_set_comp)`?'
+    message = 'Did you create a `for` loop that uses `a,b` as iterator variables to iterate `zip(divided_for_loop, divided_set_comp)`?'
     assert for_loop_found, message
 
 # For loop, subset test
